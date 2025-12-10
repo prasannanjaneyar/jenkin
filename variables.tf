@@ -4,5 +4,5 @@ variable "vnet_name" {}
 variable "subnet_name" {}
 variable "subnet2_name" {}
 variable "subnet2_prefix" {}
-variable "subnet3_name" {}
-variable "subnet3_prefix" {}
+variable "subnet4_name" {}
+variable "subnet4_prefix" {}

@@ -26,3 +26,10 @@ resource "azurerm_subnet" "subnet2" {
   virtual_network_name = azurerm_virtual_network.vnet.name
   address_prefixes     = [var.subnet2_prefix]
 }
+
+resource "azurerm_subnet" "subnet3" {
+  name                 = var.subnet3_name
+  resource_group_name  = azurerm_resource_group.rg.name
+  virtual_network_name = azurerm_virtual_network.vnet.name
+  address_prefixes     = [var.subnet3_prefix]
+}

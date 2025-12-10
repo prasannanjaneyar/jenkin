@@ -18,7 +18,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'git-pat',
-                    url: 'https://github.com/your-org/your-repo.git'
+                    url: 'https://github.com/prasannanjaneyar/jenkin.git'
             }
         }
 
